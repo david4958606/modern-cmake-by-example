@@ -14,6 +14,8 @@ if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
     include(CTest)
 endif()
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 set(CMAKE_CXX_STANDARD 11)
 
 add_subdirectory(answer)
